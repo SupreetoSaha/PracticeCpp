@@ -28,6 +28,7 @@ double calculate(const double a,const double b,const char operation) {
 		default: return NAN;
 	}
 }
+
 void learncppChapter4Question3() {
 	double number1 {inputDouble()};
 	double number2 {inputDouble()};
