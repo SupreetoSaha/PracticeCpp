@@ -4,12 +4,18 @@
 #include <iostream>
 
 void learncppChapter4Question3();
+void learncppChapter4Question4();
+void learncppChapter5_3Question2();
+void javidx9_Containers();
 
 int main()
 {
-    std::cout<<"Hello world!\n"<<std::endl;
+    std::cout<<"Hello world!"<<std::endl;
 
     learncppChapter4Question3();
+    learncppChapter4Question4();
+    learncppChapter5_3Question2();
+    javidx9_Containers();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

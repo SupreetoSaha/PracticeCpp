@@ -7,14 +7,14 @@
 
 double inputDouble() {
 	double number {0};
-	std::cout<<"\nEnter a number: ";
+	std::cout<<"Enter a number: ";
 	std::cin>>number;
 	return number;
 }
 
 char inputOperation() {
 	char operation {0};
-	std::cout<<"\nOperations: + - * /\nEnter an operation: ";
+	std::cout<<"Operations: + - * /\nEnter an operation: ";
 	std::cin>>operation;
 	return operation;
 }
@@ -30,6 +30,7 @@ double calculate(const double a,const double b,const char operation) {
 }
 
 void learncppChapter4Question3() {
+	std::cout<<std::endl<<"\nSimple Calculator\n\n";
 	double number1 {inputDouble()};
 	double number2 {inputDouble()};
 	char operation {inputOperation()};
